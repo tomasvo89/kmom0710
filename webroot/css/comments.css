@@ -1,0 +1,102 @@
+/**
+ * Style for comments and comments form
+ */
+
+ .avatar {
+  position: relative;
+  float: left;
+  left: 0px;
+  margin: 25px 0px 0px 0px;
+  }
+
+.buttons {
+    clear: both;
+}
+
+.comment {
+  padding: 20px;
+  float: left;
+  width: 87%;
+}
+
+.commentform {
+  float: left;
+  display: block;
+  width: 100%;
+  width: 718px;
+}
+
+.comment-form .hidden label {
+    float: left;
+    width: 33%;
+    margin-right: 0.5%
+}
+
+.comment-form .hidden label:last-of-type {
+    margin: 0;
+}
+
+.comment-header h3 {
+  text-transform: uppercase; 
+  font-weight: bold; 
+  display: inline; 
+}
+
+.comment-header a {
+  text-decoration: none !important; 
+  color: #666;
+}
+
+.comment-header a span {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+#comment-title {
+  font-size: 1.5em;
+}
+
+.comment-wrapper {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+fieldset {
+  padding: 0px; 
+  border: 0px !important;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+    font-weight: 700; 
+    font-size: 1.2em;
+    }
+
+form {
+  padding: 0px; 
+}
+
+input {
+    display: inline-block;
+    margin: 5px 0px 10px;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid #888;
+}
+
+input[type="text"] {
+  display: block;
+}
+
+textarea {
+    width: 60%;
+    height: 40px;
+    border-radius: 3px;
+    border: 2px solid #999;
+    padding: 8px;
+    font-size: 0.8em;
+    font-family: arial,sans-serif;
+}

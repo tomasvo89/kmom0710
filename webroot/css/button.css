@@ -1,0 +1,159 @@
+.myButton a{
+  float:right;
+  -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(242, 244, 244)), color-stop(1, rgb(227, 228, 229)));
+  background:-moz-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-webkit-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-o-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-ms-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:linear-gradient(to bottom, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(242, 244, 244)', endColorstr='rgb(227, 228, 229)',GradientType=0);
+  background-color:rgb(242, 244, 244);
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:1px solid rgb(5, 82, 117);
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:11px 23px;
+  text-decoration:none;
+}
+
+.myButton a:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(227, 228, 229)), color-stop(1, rgb(242, 244, 244)));
+  background:-moz-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-webkit-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-o-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-ms-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:linear-gradient(to bottom, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(227, 228, 229)', endColorstr='rgb(242, 244, 244)',GradientType=0);
+  background-color:rgb(227, 228, 229);
+}
+.myButton a:active {
+  position:relative;
+  top:1px;
+}
+
+.myButton1 a{
+  -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(242, 244, 244)), color-stop(1, rgb(227, 228, 229)));
+  background:-moz-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-webkit-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-o-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-ms-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:linear-gradient(to bottom, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(242, 244, 244)', endColorstr='rgb(227, 228, 229)',GradientType=0);
+  background-color:rgb(242, 244, 244);
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:1px solid rgb(5, 82, 117);
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:11px 23px;
+  text-decoration:none;
+}
+
+.myButton1 a:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(227, 228, 229)), color-stop(1, rgb(242, 244, 244)));
+  background:-moz-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-webkit-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-o-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-ms-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:linear-gradient(to bottom, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(227, 228, 229)', endColorstr='rgb(242, 244, 244)',GradientType=0);
+  background-color:rgb(227, 228, 229);
+}
+.myButton1 a:active {
+  position:relative;
+  top:1px;
+}
+
+.tinyButt {
+  -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(242, 244, 244)), color-stop(1, rgb(227, 228, 229)));
+  background:-moz-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-webkit-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-o-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-ms-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:linear-gradient(to bottom, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(242, 244, 244)', endColorstr='rgb(227, 228, 229)',GradientType=0);
+  background-color:rgb(242, 244, 244);
+  border:1px solid rgb(5, 82, 117);
+  display:inline-block;
+  cursor:pointer;
+  margin: 5px;
+  color:#ffffff;
+  font-family:arial;
+  font-size:12px;
+  font-weight:bold;
+  padding:3px 24px;
+  text-decoration:none;
+}
+
+.tinyButt:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(227, 228, 229)), color-stop(1, rgb(242, 244, 244)));
+  background:-moz-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-webkit-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-o-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-ms-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:linear-gradient(to bottom, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(227, 228, 229)', endColorstr='rgb(242, 244, 244)',GradientType=0);
+  background-color:rgb(227, 228, 229);
+}
+.tinyButt:active {
+  position:relative;
+  top:1px;
+}
+
+.tinyButt1 {
+  -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  box-shadow:inset 0px 1px 3px 0px #91b8b3;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(242, 244, 244)), color-stop(1, rgb(227, 228, 229)));
+  background:-moz-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-webkit-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-o-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:-ms-linear-gradient(top, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  background:linear-gradient(to bottom, rgb(242, 244, 244) 5%, rgb(227, 228, 229) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(242, 244, 244)', endColorstr='rgb(227, 228, 229)',GradientType=0);
+  background-color:rgb(242, 244, 244);
+  border:1px solid rgb(5, 82, 117);
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:arial;
+  font-size:12px;
+  font-weight:bold;
+  padding:3px 24px;
+  text-decoration:none;
+}
+
+.tinyButt1:hover {
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, rgb(227, 228, 229)), color-stop(1, rgb(242, 244, 244)));
+  background:-moz-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-webkit-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-o-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:-ms-linear-gradient(top, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  background:linear-gradient(to bottom, rgb(227, 228, 229) 5%, rgb(242, 244, 244) 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(227, 228, 229)', endColorstr='rgb(242, 244, 244)',GradientType=0);
+  background-color:rgb(227, 228, 229);
+}
+.tinyButt1:active {
+  position:relative;
+  top:1px;
+}

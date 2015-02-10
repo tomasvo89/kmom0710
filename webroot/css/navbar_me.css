@@ -1,0 +1,85 @@
+/**
+ * Based on http://dbwebb.se/coachen/en-navbar-med-drop-down-meny-i-ren-html-och-css
+ * Changed to only style li-items instead of a.
+ */
+ #navbar {
+  margin-bottom: 44px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+}
+
+
+.navbar li {
+  display: inline-block;
+  /*border-top: 4px solid transparent; */
+  color: black; 
+  position: relative; 
+  text-align: center;
+}
+
+.navbar a {
+  display: block;
+  padding: 1em 2em 1em 2em;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap; 
+
+}
+
+.navbar a:hover{
+  color: rgb(5, 82, 117); 
+  -webkit-transition: all 0.3s linear;/*Fade effect of hover a*/
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+
+.navbar li:hover {
+  color: rgb(47, 255, 84); 
+  border-color: black;
+} 
+
+.navbar li.selected-parent, 
+.navbar li.selected {
+  color: white; 
+  border-color: black;
+}
+
+.navbar ul ul {/*Sub menu*/
+  background-color: black; 
+  position: absolute; 
+  left: -9999px; 
+  z-index: 2;
+  color: white;
+}
+
+.navbar li li {
+  width: 100%;
+  border-top: none;  
+  /*border-left: 4px solid transparent;*/  
+}
+
+.navbar li:hover ul {
+  left: 0;
+}
+
+.navbar li li:hover {
+  color: black; 
+}
+
+.navbar li li.selected {
+  color: #222; 
+  /*border-color: #222;*/
+}

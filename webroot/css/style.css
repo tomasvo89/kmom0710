@@ -1,0 +1,182 @@
+/**
+ * General elements
+ */
+
+ @import url(figure.css);
+ @import url(comments.css);
+ @import url(flashmsg.css);
+ @import url(question.css);
+ @import url(users.css);
+ @import url(user.css);
+ @import url(tags.css);
+ @import url(button.css);
+ @import url(form.css);
+
+ body {
+  color: #333;
+  font-family: arial, sans-serif;
+  background-repeat: repeat;
+  margin: 0px; /*contributes to full-width of header, footer, navbar etc*/
+  /*background:rgba(255,255,255,0.5);*/
+  
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+
+/**
+ * Layout of the main page elements 
+ */
+ #wrapper {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 1200px; 
+  padding: 10px;
+  background: rgb(244, 244, 244);
+  /*-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.8);*/
+}
+
+
+/**
+ * Layout for header
+ */
+ #header {
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background: white;
+}
+
+.sitetitle {
+  position: absolute;
+  margin: auto;
+  top: 100px;
+  left: 640px;
+  color: black;
+  font-size: 90px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 250px;
+  left: 550px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+  font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+.sitelogo {
+  position: absolute;
+  top: 110px;
+  left: 530px;
+  z-index: 500;
+  height: 100px;
+  width: 100px;
+}
+
+
+/**
+ * Layout for main
+ */
+ #main {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+/**
+* Layout for footer
+*/
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background: #4C859F;
+  text-align: center;
+}
+
+.sitefooter {
+  color: #fff;
+  background: #4C859F;
+}
+.sitefooter a {
+  color: #fff;
+}
+
+
+/** * For articles
+*/
+.article1 {
+  padding-right: 1em;
+}
+
+.article1 h1,
+.article1 h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.byline {
+  margin-top: 140px;
+  border-top: 1px dashed #ccc;
+  padding-top: 22px;
+  color: #666;
+}
+
+.byline p {
+  margin-top: 0;
+  font-size: smaller;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/*.fa {
+  color: #333333;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}*/
+
+
+/* unvisited link */
+a:link {
+  color: #333333;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #333333;
+}
+
+/* mouse over link */
+a:hover {
+  opacity: 0.7;
+}
+
+/* selected link */
+a:active {
+  color: #4A7894;
+}
+
+#above {
+  padding: 5px;
+}
+
+

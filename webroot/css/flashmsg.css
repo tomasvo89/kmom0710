@@ -1,0 +1,49 @@
+#message {
+    padding: 15px;    
+    margin: 5px 0 5px 0;
+    width: auto;
+}
+
+#message i {
+    margin-right: 10px;
+}
+
+.info {
+    background: #0689A0;
+}
+
+.info p{
+    color: white;
+    text-align: center;
+}
+
+
+.error {
+    background: #D60A25;
+}
+
+
+.error p{
+    color: white;
+    text-align: center;
+}
+
+
+.success{
+    background: #12680C; 
+}
+
+
+.success p{
+    color: white;
+    text-align: center;
+}
+
+.warning{
+    background: #BFA709;
+}
+
+.warning p{
+    color: white;
+    text-align: center;
+}
