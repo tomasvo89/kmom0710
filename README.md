@@ -10,6 +10,6 @@ Install and setup
 
 2. Locate the file <code>app/config/database_mysql.php</code> and change your settings for the web server.
 
-3. To initiate the SQL-database, add the route <code>../kmom0710/webroot/question/setup</code>. 
+3. To initiate the SQL-database, add the route <code>../kmom0710/webroot/question/setup</code> and launch it in your browser.
 
-4. To initiate the user-table, add the route <code>../kmom0710/webroot/user/setup</code>. 
+4. To initiate the user-table, add the route <code>../kmom0710/webroot/user/setup</code> and launch it in your browser.
