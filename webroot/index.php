@@ -10,7 +10,7 @@ $app->url->setUrlType(\Anax\Url\CUrl::URL_CLEAN);
 
 $app->router->add('', function() use ($app) {
     
-     $app->theme->setTitle("Home");
+     $app->theme->setTitle("Home"); // start page
  
     $app->dispatcher->forward([
       'controller' => 'question',
